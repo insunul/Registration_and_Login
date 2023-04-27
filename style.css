@@ -1,0 +1,59 @@
+body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+h1 {
+			text-align: center;
+			color: #2d2d2d;
+			margin-top: 50px;
+		}
+h2 {
+			color: #2d2d2d;
+		}
+.container {
+			background-color: #fff;
+			padding: 30px;
+			margin: 0 auto;
+			max-width: 800px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+			border-radius: 10px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+.profile-pic {
+			display: block;
+			margin: 0 auto;
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 50%;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+.skills {
+			margin-top: 20px;
+		}
+.skills ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+.skills li {
+			background-color: #ddd;
+			padding: 5px 10px;
+			margin: 5px;
+			border-radius: 20px;
+			font-size: 14px;
+		}
+.education {
+			margin-top: 20px;
+		}
+.education .degree {
+			font-weight: bold;
+		}
+.education .school {
+			font-style: italic;
+		}
