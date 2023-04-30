@@ -30,7 +30,7 @@ $location = $_FILES['fileToUpload']['tmp_name'];
 $file_ext =pathinfo($filename,PATHINFO_EXTENSION);
 $filename =pathinfo($filename,PATHINFO_FILENAME);
 $filename =$name.".".$file_ext;
-$location1 ='/';
+$location1 ='upload/';
 move_uploaded_file($location, $location1.$filename);
 ?>
 
