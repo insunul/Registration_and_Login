@@ -35,7 +35,7 @@ $session = fgets($myfile)."<br>";
 fclose($myfile);
 if ($pas == $password) {
 echo "<div class='container'>";
-echo "<img class='profile-pic' src='"."/".$name.".jpg"."' alt='Profile Picture'>";
+echo "<img class='profile-pic' src='"."upload/".$name.".jpg"."' alt='Profile Picture'>";
 echo "<h1>".$name."</h1>";
 echo "<center>".$email."</center>";
 echo "<h2>Web Developer</h2>";
