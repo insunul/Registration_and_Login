@@ -22,7 +22,7 @@ function test_input($data) {
 <body>
 <?php
 $file = $name.'.txt';
-$myfile = fopen($file , "r") or header('Location: http://localhost/cv/index.html');
+$myfile = fopen($file , "r") or header('Location: http://index.html');
 $email = fgets($myfile)."<br>";
 $pas = fgets($myfile);
 fclose($myfile);
