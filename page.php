@@ -50,10 +50,10 @@ if ($password==$repassword) {
   fwrite($myfile, $txt);
   fwrite($myfile, $session);
   fclose($myfile);
-  header('Location: http://localhost/cv/index.html');
+  header('Location: http://index.html');
   exit();
 } else {
-  header('Location: http://localhost/cv/account.html');
+  header('Location: http://account.html');
   exit();
 }
 ?>
