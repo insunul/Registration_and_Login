@@ -50,10 +50,10 @@ if ($password==$repassword) {
   fwrite($myfile, $txt);
   fwrite($myfile, $session);
   fclose($myfile);
-  header('Location: http://index.html');
+  header('Location:  https://insunul.github.io/Registration_and_Login/index.html');
   exit();
 } else {
-  header('Location: http://account.html');
+  header('Location:  https://insunul.github.io/Registration_and_Login/account.html');
   exit();
 }
 ?>
