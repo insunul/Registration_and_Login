@@ -22,7 +22,7 @@ function test_input($data) {
 <body>
 <?php
 $file = $name.'.txt';
-$myfile = fopen($file , "r") or header('Location: http://index.html');
+$myfile = fopen($file , "r") or header('Location:  https://insunul.github.io/Registration_and_Login/index.html');
 $email = fgets($myfile)."<br>";
 $pas = fgets($myfile);
 fclose($myfile);
@@ -59,7 +59,7 @@ echo "<div class='date'>Session ".$session."</div>";
 echo "</div>";
 echo "</div>";
 } else {
-  header('Location: http://localhost/cv/index.html');
+  header('Location:  https://insunul.github.io/Registration_and_Login/index.html');
   exit();
 }
 ?>
